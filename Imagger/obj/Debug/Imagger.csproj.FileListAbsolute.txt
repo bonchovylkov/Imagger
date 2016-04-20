@@ -1,0 +1,5 @@
+c:\users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger\obj\Debug\Imagger.csprojResolveAssemblyReference.cache
+c:\users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger\bin\Debug\Imagger.dll
+c:\users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger\bin\Debug\Imagger.pdb
+c:\users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger\obj\Debug\Imagger.dll
+c:\users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger\obj\Debug\Imagger.pdb

@@ -1,0 +1,8 @@
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.Console.Tests.exe.config
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.Console.Tests.exe
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.Console.Tests.pdb
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.dll
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.pdb
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.csprojResolveAssemblyReference.cache
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.exe
+c:\Users\bonchovylkov\documents\visual studio 2015\Projects\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.pdb
