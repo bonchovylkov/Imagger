@@ -1022,6 +1022,27 @@ namespace Imagger
         }
 
 
+        public static System.Drawing.Image ScaleImageIfNeeded(System.Drawing.Image image, int maxWidth, int maxHeight)
+        {
+            if (image.Width > maxWidth || image.Height > maxHeight)
+            {
+                var ratioX = (double)maxWidth / image.Width;
+                var ratioY = (double)maxHeight / image.Height;
+                var ratio = Math.Min(ratioX, ratioY);
+
+                var newWidth = (int)(image.Width * ratio);
+                var newHeight = (int)(image.Height * ratio);
+
+                var newImage = new System.Drawing.Bitmap(newWidth, newHeight);
+
+                using (var graphics = System.Drawing.Graphics.FromImage(newImage))
+                    graphics.DrawImage(image, 0, 0, newWidth, newHeight);
+                return newImage;
+            }
+
+            return image;
+
+        }
     }
 
 
