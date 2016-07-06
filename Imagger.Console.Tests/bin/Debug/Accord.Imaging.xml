@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accord.Imaging</name>
+    </assembly>
+    <members>
+        <member name="T:Accord.Imaging.Filters.RectanglesMarker">
+            <summary>
+              Filter to mark (highlight) rectangles in a image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.Filters.RectanglesMarker.#ctor(System.Drawing.Color)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.Imaging.Filters.RectanglesMarker"/> class.
+            </summary>
+            
+            <param name="markerColor">The color to use to drawn the rectangles.</param>
+            
+        </member>
+        <member name="M:Accord.Imaging.Filters.RectanglesMarker.#ctor(System.Drawing.Rectangle[])">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.Imaging.Filters.RectanglesMarker"/> class.
+            </summary>
+            
+            <param name="rectangles">Set of rectangles to be drawn.</param>
+            
+        </member>
+        <member name="M:Accord.Imaging.Filters.RectanglesMarker.#ctor(System.Collections.Generic.IEnumerable{System.Drawing.Rectangle})">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.Imaging.Filters.RectanglesMarker"/> class.
+            </summary>
+            
+            <param name="rectangles">Set of rectangles to be drawn.</param>
+            
+        </member>
+        <member name="M:Accord.Imaging.Filters.RectanglesMarker.#ctor(System.Collections.Generic.IEnumerable{System.Drawing.Rectangle},System.Drawing.Color)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.Imaging.Filters.RectanglesMarker"/> class.
+            </summary>
+            
+            <param name="rectangles">Set of rectangles to be drawn.</param>
+            <param name="markerColor">The color to use to drawn the rectangles.</param>
+            
+        </member>
+        <member name="M:Accord.Imaging.Filters.RectanglesMarker.ProcessFilter(AForge.Imaging.UnmanagedImage)">
+            <summary>
+              Applies the filter to the image.
+            </summary>
+        </member>
+        <member name="P:Accord.Imaging.Filters.RectanglesMarker.MarkerColor">
+            <summary>
+              Color used to mark pairs.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.Filters.RectanglesMarker.Rectangles">
+            <summary>
+              The set of rectangles.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.Filters.RectanglesMarker.FormatTranslations">
+            <summary>
+              Format translations dictionary.
+            </summary>
+            
+        </member>
+        <member name="T:Accord.Imaging.IntegralImage2">
+            <summary>
+              Joint representation of both Integral Image and Squared Integral Image.
+            </summary>
+            
+            <remarks>
+              Using this representation, both structures can be created in a single pass
+              over the data. This is interesting for real time applications. This class
+              also accepts a channel parameter indicating the Integral Image should be
+              computed using a specified color channel. This avoids costly conversions.
+            </remarks>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+              Constructs a new Integral image of the given size.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+              Constructs a new Integral image from a Bitmap image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(System.Drawing.Bitmap,System.Int32,System.Boolean)">
+            <summary>
+              Constructs a new Integral image from a Bitmap image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(System.Drawing.Imaging.BitmapData,System.Int32)">
+            <summary>
+              Constructs a new Integral image from a BitmapData image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(System.Drawing.Imaging.BitmapData,System.Int32,System.Boolean)">
+            <summary>
+              Constructs a new Integral image from a BitmapData image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(AForge.Imaging.UnmanagedImage,System.Int32)">
+            <summary>
+              Constructs a new Integral image from an unmanaged image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.FromBitmap(AForge.Imaging.UnmanagedImage,System.Int32,System.Boolean)">
+            <summary>
+              Constructs a new Integral image from an unmanaged image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.GetSum(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+              Gets the sum of the pixels in a rectangle of the Integral image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.GetSum2(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+              Gets the sum of the squared pixels in a rectangle of the Integral image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.GetSumT(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+              Gets the sum of the pixels in a tilted rectangle of the Integral image.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.Dispose">
+            <summary>
+              Performs application-defined tasks associated with freeing,
+              releasing, or resetting unmanaged resources.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.Finalize">
+            <summary>
+              Releases unmanaged resources and performs other cleanup operations 
+              before the <see cref="T:Accord.Imaging.IntegralImage2"/> is reclaimed by garbage collection.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Imaging.IntegralImage2.Dispose(System.Boolean)">
+            <summary>
+              Releases unmanaged and - optionally - managed resources
+            </summary>
+            
+            <param name="disposing"><c>true</c> to release both managed 
+            and unmanaged resources; <c>false</c> to release only unmanaged
+            resources.</param>
+            
+        </member>
+        <member name="P:Accord.Imaging.IntegralImage2.Width">
+            <summary>
+              Gets the image's width.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.IntegralImage2.Height">
+            <summary>
+              Gets the image's height.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.IntegralImage2.Image">
+            <summary>
+              Gets the Integral Image for values' sum.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.IntegralImage2.Squared">
+            <summary>
+              Gets the Integral Image for values' squared sum.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.Imaging.IntegralImage2.Rotated">
+            <summary>
+              Gets the Integral Image for tilted values' sum.
+            </summary>
+            
+        </member>
+        <member name="T:Accord.Imaging.Tools">
+            <summary>
+              Static tool functions for imaging.
+            </summary>
+            
+            <remarks>
+              <para>
+                References:
+                <list type="bullet">
+                  <item><description>
+                    P. D. Kovesi. MATLAB and Octave Functions for Computer Vision and Image Processing.
+                    School of Computer Science and Software Engineering, The University of Western Australia.
+                    Available in: <a href="http://www.csse.uwa.edu.au/~pk/Research/MatlabFns/Match/matchbycorrelation.m">
+                    http://www.csse.uwa.edu.au/~pk/Research/MatlabFns/Match/matchbycorrelation.m </a>
+                  </description></item>
+              </list></para>
+            </remarks>
+            
+        </member>
+        <member name="M:Accord.Imaging.Tools.IsEqual(System.Drawing.Rectangle,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+              Compares two rectangles for equality, considering an acceptance threshold.
+            </summary>
+        </member>
+    </members>
+</doc>

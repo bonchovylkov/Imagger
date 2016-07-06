@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimplexNoise">
+      <HintPath>..\Imagger.Console.Tests\libs\SimplexNoise.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -42,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RandomJitter.cs" />
     <Compile Include="Mathematics\Math.cs" />
     <Compile Include="Mathematics\MathObjects\ConvolutionMatrix.cs" />
     <Compile Include="Mathematics\MathObjects\Matrix.cs" />

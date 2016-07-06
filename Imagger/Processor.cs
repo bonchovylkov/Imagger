@@ -1043,6 +1043,57 @@ namespace Imagger
             return image;
 
         }
+
+         public static void ApplyAddNoise(ref Bitmap bmp, Rectangle[] objects)
+        {
+            for (int z = 0; z < objects.Length; z++)
+            {
+                Rectangle currentRectangular = objects[z];
+
+                Random r = new Random();
+
+
+                for (int x = currentRectangular.Left; x < currentRectangular.Right; x++)
+                {
+                    for (int y = currentRectangular.Top; y < currentRectangular.Bottom; y++)
+                    {
+
+
+                        int op = r.Next(0, 2);
+                        if (op == 0)
+                        {
+                            int num = r.Next(0, 256);
+
+                            Color clr = bmp.GetPixel(x, y);
+                            int R = (clr.R + clr.R + num) / 2;
+                            if (R > 255) R = 255;
+                            int G = (clr.G + clr.G + num) / 2;
+                            if (G > 255) G = 255;
+                            int B = (clr.B + clr.B + num) / 2;
+                            if (B > 255) B = 255;
+                            Color result = Color.FromArgb(255, R, G, B);
+                            bmp.SetPixel(x, y, result);
+                        }
+                        else
+                        {
+                            int num = r.Next(0, 256);
+
+                            Color clr = bmp.GetPixel(x, y);
+                            int R = (clr.R + clr.R - num) / 2;
+                            if (R < 0) R = 0;
+                            int G = (clr.G + clr.G - num) / 2;
+                            if (G < 0) G = 0;
+                            int B = (clr.B + clr.B - num) / 2;
+                            if (B < 0) B = 0;
+
+                            Color result = Color.FromArgb(255, R, G, B);
+                            bmp.SetPixel(x, y, result);
+
+                        }
+                    }
+                }
+            }
+        }
     }
 
 

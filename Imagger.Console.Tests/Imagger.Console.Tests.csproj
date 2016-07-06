@@ -33,6 +33,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accord.Imaging, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\Accord.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.MachineLearning, Version=2.7.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\Accord.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Vision, Version=2.7.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\Accord.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge, Version=2.2.4.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.4.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.4.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Work\Face detection\accord-facedetection-source\Sources\Accord.Imaging\ddls\AForge.Math.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -55,6 +79,21 @@
       <Project>{e601d63b-8c21-4cfd-a13d-5161b3d627cd}</Project>
       <Name>Imagger</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Accord.Imaging.dll" />
+    <Content Include="libs\Accord.Imaging.xml" />
+    <Content Include="libs\Accord.MachineLearning.dll" />
+    <Content Include="libs\Accord.MachineLearning.xml" />
+    <Content Include="libs\Accord.Vision.dll" />
+    <Content Include="libs\Accord.Vision.xml" />
+    <Content Include="libs\AForge.dll" />
+    <Content Include="libs\AForge.Imaging.dll" />
+    <Content Include="libs\AForge.Imaging.xml" />
+    <Content Include="libs\AForge.Math.dll" />
+    <Content Include="libs\AForge.Math.xml" />
+    <Content Include="libs\AForge.xml" />
+    <Content Include="libs\SimplexNoise.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
