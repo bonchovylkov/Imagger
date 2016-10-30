@@ -19,3 +19,6 @@ C:\Users\bonchovylkov\Documents\Visual Studio 2015\Projects\Imagger\Imagger.Cons
 C:\Users\bonchovylkov\Documents\Visual Studio 2015\Projects\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.exe
 C:\Users\bonchovylkov\Documents\Visual Studio 2015\Projects\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.pdb
 C:\Users\bonchovylkov\Documents\Visual Studio 2015\Projects\Imagger\Imagger.Console.Tests\bin\Debug\SimplexNoise.dll
+C:\Users\boncho\Documents\GitHub\Imagger\Imagger.Console.Tests\bin\Debug\Imagger.Console.Tests.exe.config
+C:\Users\boncho\Documents\GitHub\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.exe
+C:\Users\boncho\Documents\GitHub\Imagger\Imagger.Console.Tests\obj\Debug\Imagger.Console.Tests.pdb

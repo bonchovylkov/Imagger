@@ -20,6 +20,7 @@ namespace Imagger.Console.Tests
     {
         static void Main(string[] args)
         {
+
             ////ApplyBiTonal
             //Bitmap b = (Bitmap)Image.FromFile("test.png");
             //Processor.ApplyBiTonal(ref b, (byte.MaxValue * 3) / 2, System.Drawing.Color.Red, System.Drawing.Color.White);
